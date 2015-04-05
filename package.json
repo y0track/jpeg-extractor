@@ -1,7 +1,7 @@
 {
   "name": "jpeg-extractor",
-  "version": "0.0.1",
-  "description": "A node.js implementation MJPEG-stream parser into individual frames with JPEG-images",
+  "version": "0.1.2",
+  "description": "Implementation of MJPEG-parser for the Node.js",
   "author": {
     "name": "Dmitry Rybin",
     "email": "postbox2020@yandex.ru"
@@ -19,8 +19,15 @@
   ],
 
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/y0track/jpeg-extractor.git"
+  },
   "engines": {
     "node": ">= 0.10.0"
+  },
+  "dependencies": {
+    "buffertools": ">= 2.1.x"
   },
   "maintainers": [
     {
