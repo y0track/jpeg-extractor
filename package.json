@@ -1,0 +1,31 @@
+{
+  "name": "jpeg-extractor",
+  "version": "0.0.1",
+  "description": "A node.js implementation MJPEG-stream parser into individual frames with JPEG-images",
+  "author": {
+    "name": "Dmitry Rybin",
+    "email": "postbox2020@yandex.ru"
+  },
+  "main": "index.js",
+  "directories": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mjpeg",
+    "mjpg",
+    "jpeg",
+    "jpg"
+  ],
+
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "maintainers": [
+    {
+      "name": "Dmitry Rybin",
+      "email": "postbox2020@yandex.ru"
+    }
+  ]
+}
