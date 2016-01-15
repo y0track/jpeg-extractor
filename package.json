@@ -1,6 +1,6 @@
 {
   "name": "jpeg-extractor",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Implementation of MJPEG-parser for the Node.js",
   "author": {
     "name": "Dmitry Rybin",

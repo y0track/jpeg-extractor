@@ -5,7 +5,7 @@ var fileOnWrite = require('file-on-write');
 var url = 'http://root:123@127.0.0.1:11164/axis-cgi/mjpg/video.cgi';
 
 var je = jpegExtractor().on('image', function (image) {
-    console.log('--> ' + image.toString('hex'));
+    //console.log('--> ' + image.toString('hex'));
 });
 
 var cnt = 0;
